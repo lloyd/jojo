@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> JoJo is here </title>
+</head>
+<body>
+</body>
+<!-- let's include the jojo abstraction -->
+<script src="jschannel.js"></script>
+<script src="include.js"></script>
+
+<!-- let's code against the jojo abstraction -->
+<script>
+JoJo.connect({
+  onconnect: function(args) {
+    console.log("connected", args);
+  },
+  ondisconnect: function() {
+    console.log("disconnected");
+  },
+  onabsent: function() {
+    console.log("someone left");
+  },
+  onabsent: function() {
+    console.log("someone came!");
+  }
+});
+</script>
+</html>
