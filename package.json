@@ -1,0 +1,20 @@
+{
+  "name": "jojo",
+  "description": "Because, we are here.",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {
+    "awsbox": "0.6.x",
+    "jshint": "2.x",
+    "mocha": "*"
+  },
+  "scripts": {
+  }
+}
